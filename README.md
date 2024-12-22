@@ -139,10 +139,10 @@ We could delete these columns: Open_fire, TypeSale, PriceType, LifeAnnuitySale, 
 ![Most expensive localities over Belgium](assets/most_expensive_localities.png)
 
 ### Average Apartments' prices distrubution over belgium per region
-![Average Apartments prices distrubution over belgium per region](assets\APARTMENT.png)
+![Average Apartments prices distrubution over belgium per region](assets/APARTMENT.png)
 
 ### Average Houses' prices distrubution over Brussels per locality
-![Average Houses' prices distrubution over Brussels per locality](assets\HOUSE.png)
+![Average Houses' prices distrubution over Brussels per locality](assets/HOUSE.png)
 
 #### For additional graphs and detailed insights, please visit the repository.
 
