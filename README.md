@@ -101,6 +101,7 @@ The dataset used for this project has been scraped previously from Immoweb websi
 ### Observations and features
 - There were 5752 rows (observations) and 32 columns (features).
 - Here is the table of columns with more than 20% missing values in original dataset:
+
 '''
 | Column           | Missing percentage |
 | -------------    | -------------      |
