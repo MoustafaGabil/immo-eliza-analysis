@@ -93,7 +93,7 @@ def ave_price_map (Data_path_for_maps,Property):
 #### The below file is the main/targeted data to be displayed ####
     avg_price_per_locality_houses = Brussels_h_A.groupby('Locality')['Price'].mean().reset_index() 
     # this is the shape file for Brussels Municipalities, sheck the path of it.
-    shape_files= r'Brussels_Municipalities\Brussels_-_Municipalities.shp'
+    shape_files= r'Data/Brussels_Municipalities/Brussels_-_Municipalities.shp'
     Brussels_localities_map = gpd.read_file(shape_files)
     # merging the average prices based on the localities
     merged_data_localities_houses = Brussels_localities_map.merge(avg_price_per_locality_houses, left_on='NAME_FRE', right_on='Locality')
@@ -132,7 +132,7 @@ def ploting_prices_localities(data,colour_bar,fig_title, region_name,property_ty
     # Close the plot to free memory
     plt.close()
 def Bel_Province_map (Data_path_for_maps,Property):
-    shape_file =r"BELGIUM_Provinces\BELGIUM_-_Provinces.shp"
+    shape_file =r"Data/BELGIUM_Provinces/BELGIUM_-_Provinces.shp"
     Belgium_Province = gpd.read_file(shape_file)
     data = pd.read_csv(Data_path_for_maps)
     # Standardize province names
