@@ -1,5 +1,5 @@
 # Churn Prediction
-![Header Image](assets/H_A_analysis.png)
+![Header Image](assets/H_A_analysis.jpg)
 
 ## 📝 Description
 This project focuses on helping Immo Eliza, a real estate company, predict property prices throughout Belgium. By analyzing a dataset with property information, the goal is to uncover key insights about the Belgian real estate market and determine the factors that most influence property prices. The project includes steps like data cleaning, exploratory analysis, and visualization to extract meaningful findings.
@@ -139,10 +139,10 @@ We could delete these columns: Open_fire, TypeSale, PriceType, LifeAnnuitySale, 
 ![Most expensive localities over Belgium](assets/most_expensive_localities.png)
 
 ### Average Apartments' prices distrubution over belgium per region
-![Average Apartments prices distrubution over belgium per region](assets\APARTMENT_prices_distrubution_over_Belgium.png)
+![Average Apartments prices distrubution over belgium per region](assets\APARTMENT.png)
 
 ### Average Houses' prices distrubution over Brussels per locality
-![Average Houses' prices distrubution over Brussels per locality](assets\HOUSE_prices_distrubution_over_Brussels.png)
+![Average Houses' prices distrubution over Brussels per locality](assets\HOUSE.png)
 
 #### For additional graphs and detailed insights, please visit the repository.
 
